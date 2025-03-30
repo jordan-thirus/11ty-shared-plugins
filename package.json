@@ -1,0 +1,37 @@
+{
+  "name": "eleventy-shared-plugins",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "some filters, transforms, etc that Jordan Thirus uses made into plugins",
+  "exports": {
+    ".": "./src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jordan-thirus/11ty-shared-plugins.git"
+  },
+  "keywords": [
+    "11ty",
+    "tailwind"
+  ],
+  "author": "Jordan Thirus",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jordan-thirus/11ty-shared-plugins/issues"
+  },
+  "homepage": "https://github.com/jordan-thirus/11ty-shared-plugins#readme",
+  "peerDependencies": {
+    "@11ty/eleventy": "3.x",
+    "tailwindcss": "4.x"
+  },
+  "dependencies": {
+    "@csstools/postcss-sass": "^5.1.1",
+    "@tailwindcss/postcss": "^4.0.17",
+    "cssnano": "^7.0.6",
+    "htmlnano": "^2.1.1",
+    "luxon": "^3.6.0",
+    "postcss": "^8.5.3",
+    "postcss-import": "^16.1.0",
+    "prettier": "^3.5.3"
+  }
+}
