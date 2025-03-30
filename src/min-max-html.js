@@ -25,7 +25,9 @@ export function minMaxHtml(eleventyConfig) {
         eleventyConfig.addTransform("compressHTMLOutput", (content, outputPath) => {
             const options = {
                 removeEmptyAttributes: false, // Disable the module "removeEmptyAttributes"
-                collapseWhitespace: "conservative", // Pass options to the module "collapseWhitespace"
+                collapseWhitespace: "conservative", // Pass options to the module "collapseWhitespace",
+                minifySvg: false,   //Disable minifying SVGs
+                minifyJs: false,   //Disable minifying JS
            };
             // posthtml, posthtml-render, and posthtml-parse options
             const postHtmlOptions = {

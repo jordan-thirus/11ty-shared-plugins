@@ -1,7 +1,7 @@
 {
   "name": "eleventy-shared-plugins",
   "type": "module",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "some filters, transforms, etc that Jordan Thirus uses made into plugins",
   "exports": {
     ".": "./src/index.js"
