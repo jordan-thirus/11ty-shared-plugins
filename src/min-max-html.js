@@ -7,7 +7,7 @@ import htmlnano from "htmlnano";
 export function minMaxHtml(eleventyConfig) {
         // https://bnijenhuis.nl/notes/adding-prettier-in-eleventy-using-transforms/
         eleventyConfig.addTransform("minMaxHtml", function (content) {
-            if ((this.page.outputPath || "").endsWith(".html") && isDevEnv) {
+            if (isDevEnv && (this.page.outputPath || "").endsWith(".html")) {
         
                 let prettified = prettier.format(content, {
                     bracketSameLine: true,
@@ -35,7 +35,7 @@ export function minMaxHtml(eleventyConfig) {
                 quoteAllAttributes: false, // https://github.com/posthtml/posthtml-render#options
             };
 
-            if (outputPath.endsWith(".html") && isProduction) {
+            if (isProduction && outputPath && outputPath.endsWith(".html")) {
                 return htmlnano
                     .process(content, options, htmlnano.safe, postHtmlOptions)
                     .then(function (result) {

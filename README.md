@@ -4,14 +4,9 @@ This repo holds some things that I've made or abstracted from other 11ty starter
 
 ## Plugins
 
-### `tailwindSass`
+### `processSass`
 
-Creates a filter `postcss` processing of a Tailwind SCSS file using PostCSS. Suports imports. The the output CSS will be minified.
-
-
-### Notes:
-- Compatible with Tailwind 4.x.
-- Expects the file to process to be located at `'./_includes/css/styles.css'`. Can be overridden by passing an input file as an option. i.e. `eleventyConfig.addPlugin(tailwindSass, {inputFile: './path/to/file.css});`
+Adds an extension that processes `.scss` files into `css` files. The output will be minified by default and the extension supports importing from node packages with the `pkg` prefix. The site's configuration will need to manually include the `scss` template format.
 
 ### `minMaxHtml`
 
