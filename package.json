@@ -1,5 +1,5 @@
 {
-  "name": "eleventy-shared-plugins",
+  "name": "@jordan-thirus/11ty-shared-plugins",
   "type": "module",
   "version": "2.0.1",
   "description": "some filters, transforms, etc that Jordan Thirus uses made into plugins",
