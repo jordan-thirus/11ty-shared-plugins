@@ -27,7 +27,7 @@
   },
   "dependencies": {
     "cssnano": "^7.1.2",
-    "htmlnano": "^3.2.0",
+    "htmlnano": "^3.2.1",
     "luxon": "^3.7.2",
     "postcss": "^8.5.6",
     "prettier": "^3.8.1",
