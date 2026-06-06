@@ -1,7 +1,7 @@
 {
   "name": "@jordan-thirus/11ty-shared-plugins",
   "type": "module",
-  "version": "2.0.2",
+  "version": "2.0.3",
   "description": "some filters, transforms, etc that Jordan Thirus uses made into plugins",
   "exports": {
     ".": "./src/index.js"
