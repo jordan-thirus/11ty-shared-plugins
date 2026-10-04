@@ -26,15 +26,15 @@
     "@11ty/eleventy": "3.x"
   },
   "dependencies": {
-    "cssnano": "^7.1.9",
-    "htmlnano": "^3.3.2",
+    "cssnano": "^8.0.10",
+    "htmlnano": "^3.5.1",
     "luxon": "^3.7.2",
-    "postcss": "^8.5.15",
-    "prettier": "^3.8.3",
-    "sass": "^1.100.0"
+    "postcss": "^8.5.28",
+    "prettier": "^3.9.9",
+    "sass": "^1.105.1"
   },
   "devDependencies": {
-    "release-it": "^19.2.4"
+    "release-it": "^21.1.0"
   },
   "release-it": {
     "git": {
