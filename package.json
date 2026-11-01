@@ -27,11 +27,11 @@
   },
   "dependencies": {
     "cssnano": "^8.0.10",
-    "htmlnano": "^3.5.1",
+    "htmlnano": "^3.6.1",
     "luxon": "^3.7.2",
-    "postcss": "^8.5.28",
-    "prettier": "^3.9.9",
-    "sass": "^1.105.1"
+    "postcss": "^8.5.32",
+    "prettier": "^3.9.10",
+    "sass": "^1.107.1"
   },
   "publishConfig": {
     "registry": "https://npm.pkg.github.com"
