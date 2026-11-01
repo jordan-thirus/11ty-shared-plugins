@@ -26,7 +26,7 @@
     "@11ty/eleventy": "3.x"
   },
   "dependencies": {
-    "cssnano": "^8.0.10",
+    "cssnano": "^9.9.0",
     "htmlnano": "^3.6.1",
     "luxon": "^3.7.2",
     "postcss": "^8.5.32",
